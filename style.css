@@ -478,7 +478,7 @@ form a{
 }
 .sticker {
     width: 30%;
-    min-width: 450px;
+    min-width: 350px;
     height: 130px; 
     background-color: #fff;
     padding: 20px 30px;
@@ -498,7 +498,7 @@ form a{
 }
 .stk-container .text {
     float: left;
-    padding-left: 65px;
+    padding-left: 30px;
     text-align: left;
 }
 .text p {
