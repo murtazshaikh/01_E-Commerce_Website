@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About - RedStore</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Carattere&family=Corinthia:wght@400;700&family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@100&family=Stylish&family=Yuji+Boku&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html"
+            ><img src="img/logo.png" alt="logo" width="125px"
+          /></a>
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="account.html">Account</a></li>
+          </ul>
+        </nav>
+        <a href="cart.html">
+          <img src="img/cart.png" width="30px" height="30px"
+        /></a>
+        <img src="img/menu.png" class="menu-icon" onclick="menutoggle()" />
+      </div>
+    </div>
+
+    <!-- -----about-page----- -->
+    <div class="about-page">
+      <div class="container">
+        <h1>About</h1>
+        <p>
+          Red-Store is a website and discovery platform that existing from 1998. It aggregated a multitude of fashion sites into one interface. Its aim is to provide users a streamlined shopping experience. Red-Store maintained localized sites for users in the United Kingdom, United States and Denmark, and offered a selection from over 150 online shops with 1,000 brands. The company has headquarter in London and Copenhagen.
+        </p>
+        <p>Red-Store received $400,000 in angel investment from Rainmaking and angel investor Kristian Byrge in 2000. The funding round was intended to help the site expand into Sweden, Germany and the Netherlands.</p>
+        <p>
+          Red-Store aggregated information from various fashion websites and online stores to allow consumers an overview of available clothing and accessories and compare prices without visiting individual retailer's sites. The site also updates in real time information from retailers such as price or amount of items in stock. After a consumer selected an item they wish to purchase, the Red-Store redirected the user to the retailer's website where they can finalize their purchase. The site was paid a percentage of the total sales price of each sale made by the retailer.
+
+          The site maintained localized websites for users in the United Kingdom, United States, and Denmark. It used algorithms and machine learning technology to tailor to individual users content such as the type of fashion products or styles displayed by the site. Users could filter displayed items by designer, brand, color, size, and price. The Fashion curated fashion trends and updates on a weekly basis for its userbase.
+        </p>
+        
+        </div>
+        
+      </div>
+      <div class="stk-container">
+        <div class="sticker one"><img src="img/guests.png" width="100%" alt="guest">
+          <div class="text"><p>Customers</p><h2>200,000,000+</h2></div>
+        </div>
+        <div class="sticker two"><img src="img/cities.png" width="100%" alt="cities">
+          <div class="text"><p>Cities</p><h2>65,000+</h2></div>
+        </div>
+        <div class="sticker three"><img src="img/items.png" width="100%" alt="items">
+          <div class="text"><p>Items</p><h2>10,000,000+</h2></div>
+        </div>
+        <div class="sticker four"><img src="img/country.png" width="100%" alt="country">
+          <div class="text"><p>Country</p><h2>150+</h2></div>
+        </div>
+    </div>
+
+    <!-- -----footer----- -->
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download App for Android and ios mobile phone</p>
+            <div class="app-logo">
+              <img src="img/play-store.png" alt="play-store"/>
+              <img src="img/app-store.png" alt="app-store"/>
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="img/logo-white.png" alt="logo-white"/>
+            <p>
+              Our Purpose Is To Sustainably Make the Pleasure and Benifits of
+              Sports Accessible to the Many.
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow Us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>YouTube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright 2021 - Easy Tutorials</p>
+      </div>
+    </div>
+
+    <!-- -----js for toggle menue----- -->
+
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+      MenuItems.style.maxHeight = "0px";
+
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
